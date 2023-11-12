@@ -1,2 +1,10 @@
 # Social-Distance-Surveillance-system-for-Public-Places
-This project was developed by me and my hackathon teammates in which we first identified the persons by using the mRCNN algorithm to accurately detect person's in the video and then calculate the distance from the centroid of the person's bounding box using the cdist function of the scipy library. After calculating the distance we compare it with the threshold and calculate the total number of violations happening at a specific point of time.
+
+This GitHub repository presents the development of an AI-powered social distancing surveillance system, designed to monitor and ensure adherence to social distancing guidelines in public and office spaces. The project utilizes the state-of-the-art Mask RCNN pre-trained COCO model for object detection in video frames, focusing particularly on detecting people and assessing their compliance with social distancing.
+
+Key aspects of the project include:
+
+* **Problem Statement:** Addressing the challenge of monitoring social distancing in public and office spaces during the ongoing pandemic.
+* **Methodology:** Utilizing Mask RCNN for object detection, extracting human figures from video frames, and calculating the Euclidean distance between individuals to detect social distancing violations.
+* **Experimental Results:** Implementation of the system, highlighting its capability to detect distancing violations in real-time, with a focus on improving accuracy and handling various challenges.
+* **Future Development:** Plans to enhance the system with features like dynamic distance calculation, bird-eye view implementation, and notification alerts for social distancing violations​
